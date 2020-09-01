@@ -1,12 +1,11 @@
-rm(list=ls(all=TRUE))
 
 require(pacman)
 pacman::p_load(openxlsx)
 pacman::p_load(reshape2)
 pacman::p_load(dplyr)
 pacman::p_load(countrycode)
+p_load(data.table)
 
-setwd("C:/Users/Viktor/Dropbox/GitHub/macroX_sovereign-yield-spreads")
 var_names <- getSheetNames("./input/full_data.xlsx")
 N <- length(var_names) 	#Number of sheets in the *.xlsx-file
 
@@ -26,3 +25,12 @@ for (i0 in 1:N){
 
 full_data <- Reduce(merge, full_data_list)
 full_data$iso3 <- countrycode(full_data$iso3, "country.name", "iso3c")
+
+#var correction
+full_data$tb <- full_data$tb/full_data$gdp
+
+full_data <- data.table(full_data)
+full_data[, debt_ea := debt/sum(debt), by = year]
+
+
+exp <- full_data

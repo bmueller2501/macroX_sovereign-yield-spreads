@@ -23,3 +23,6 @@ dat <- gather(data = dat, key = "iso3", value = "spr", c) %>%
 dat <- dat %>% filter(is.na(year) == F); summary(dat) #some days are missing
 
 dat <- dat[, .(spr = mean(spr, na.rm = T)), by = .(year, iso3)]
+
+dep <- dat
+rm(dat)
