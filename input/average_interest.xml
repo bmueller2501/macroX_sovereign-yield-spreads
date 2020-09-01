@@ -1,0 +1,5505 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>DG Ecfin</Author>
+  <LastAuthor>DG Ecfin</LastAuthor>
+  <Company>European Commission</Company>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="AmecoCurrent">
+    <Table>
+   <Row >
+    <Cell><Data ss:Type="String">AMECO RESULTS </Data></Cell>
+   </Row>
+   <Row/>
+		<Row>
+						<Cell><Data ss:Type="String">Implicit interest rate: general government :- Interest as percent of gross public debt of preceding year Excessive deficit procedure (based on ESA 2010) (AYIGD) (Percentage of gross public debt: )</Data></Cell>
+		</Row>
+		<Row>
+					    <Cell><Data ss:Type="String">Country</Data></Cell>
+						<Cell><Data ss:Type="String">Unit</Data></Cell>
+						
+                        
+								<Cell><Data ss:Type="Number">2021</Data></Cell>
+						
+								<Cell><Data ss:Type="Number">2020</Data></Cell>
+						
+								<Cell><Data ss:Type="Number">2019</Data></Cell>
+						
+								<Cell><Data ss:Type="Number">2018</Data></Cell>
+						
+								<Cell><Data ss:Type="Number">2017</Data></Cell>
+						
+								<Cell><Data ss:Type="Number">2016</Data></Cell>
+						
+								<Cell><Data ss:Type="Number">2015</Data></Cell>
+						
+								<Cell><Data ss:Type="Number">2014</Data></Cell>
+						
+								<Cell><Data ss:Type="Number">2013</Data></Cell>
+						
+								<Cell><Data ss:Type="Number">2012</Data></Cell>
+						
+								<Cell><Data ss:Type="Number">2011</Data></Cell>
+						
+								<Cell><Data ss:Type="Number">2010</Data></Cell>
+						
+								<Cell><Data ss:Type="Number">2009</Data></Cell>
+						
+								<Cell><Data ss:Type="Number">2008</Data></Cell>
+						
+								<Cell><Data ss:Type="Number">2007</Data></Cell>
+						
+								<Cell><Data ss:Type="Number">2006</Data></Cell>
+						
+								<Cell><Data ss:Type="Number">2005</Data></Cell>
+						
+								<Cell><Data ss:Type="Number">2004</Data></Cell>
+						
+								<Cell><Data ss:Type="Number">2003</Data></Cell>
+						
+								<Cell><Data ss:Type="Number">2002</Data></Cell>
+						
+								<Cell><Data ss:Type="Number">2001</Data></Cell>
+						
+								<Cell><Data ss:Type="Number">2000</Data></Cell>
+						
+								<Cell><Data ss:Type="Number">1999</Data></Cell>
+						
+								<Cell><Data ss:Type="Number">1998</Data></Cell>
+						
+								<Cell><Data ss:Type="Number">1997</Data></Cell>
+						
+								<Cell><Data ss:Type="Number">1996</Data></Cell>
+						
+								<Cell><Data ss:Type="Number">1995</Data></Cell>
+						
+								<Cell><Data ss:Type="Number">1994</Data></Cell>
+						
+								<Cell><Data ss:Type="Number">1993</Data></Cell>
+						
+								<Cell><Data ss:Type="Number">1992</Data></Cell>
+						
+								<Cell><Data ss:Type="Number">1991</Data></Cell>
+						
+								<Cell><Data ss:Type="Number">1990</Data></Cell>
+						
+								<Cell><Data ss:Type="Number">1989</Data></Cell>
+						
+								<Cell><Data ss:Type="Number">1988</Data></Cell>
+						
+								<Cell><Data ss:Type="Number">1987</Data></Cell>
+						
+								<Cell><Data ss:Type="Number">1986</Data></Cell>
+						
+								<Cell><Data ss:Type="Number">1985</Data></Cell>
+						
+								<Cell><Data ss:Type="Number">1984</Data></Cell>
+						
+								<Cell><Data ss:Type="Number">1983</Data></Cell>
+						
+								<Cell><Data ss:Type="Number">1982</Data></Cell>
+						
+								<Cell><Data ss:Type="Number">1981</Data></Cell>
+						
+								<Cell><Data ss:Type="Number">1980</Data></Cell>
+						
+								<Cell><Data ss:Type="Number">1979</Data></Cell>
+						
+								<Cell><Data ss:Type="Number">1978</Data></Cell>
+						
+								<Cell><Data ss:Type="Number">1977</Data></Cell>
+						
+								<Cell><Data ss:Type="Number">1976</Data></Cell>
+						
+								<Cell><Data ss:Type="Number">1975</Data></Cell>
+						
+								<Cell><Data ss:Type="Number">1974</Data></Cell>
+						
+								<Cell><Data ss:Type="Number">1973</Data></Cell>
+						
+								<Cell><Data ss:Type="Number">1972</Data></Cell>
+						
+								<Cell><Data ss:Type="Number">1971</Data></Cell>
+						
+								<Cell><Data ss:Type="Number">1970</Data></Cell>
+						
+								<Cell><Data ss:Type="Number">1969</Data></Cell>
+						
+								<Cell><Data ss:Type="Number">1968</Data></Cell>
+						
+								<Cell><Data ss:Type="Number">1967</Data></Cell>
+						
+								<Cell><Data ss:Type="Number">1966</Data></Cell>
+						
+								<Cell><Data ss:Type="Number">1965</Data></Cell>
+						
+								<Cell><Data ss:Type="Number">1964</Data></Cell>
+						
+								<Cell><Data ss:Type="Number">1963</Data></Cell>
+						
+								<Cell><Data ss:Type="Number">1962</Data></Cell>
+						
+								<Cell><Data ss:Type="Number">1961</Data></Cell>
+						
+								<Cell><Data ss:Type="Number">1960</Data></Cell>
+						
+		</Row>
+
+		<Row>
+						<Cell><Data ss:Type="String">European Union</Data></Cell>
+				    	<Cell><Data ss:Type="String">Percentage of gross public debt</Data></Cell>
+			
+							<Cell><Data ss:Type="Number">1.6978112</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">1.8606158</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">1.9588676</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">2.1466301</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">2.2206401</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">2.3803008</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">2.5790048</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">2.8512766</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.0919827</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.5215760</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.6608496</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.6428554</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.9987391</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.6260831</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.4879386</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.2885425</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.4148954</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.6381714</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.9414174</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.3593687</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.7295638</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+		</Row>
+
+		<Row>
+						<Cell><Data ss:Type="String">European Union (15 countries)</Data></Cell>
+				    	<Cell><Data ss:Type="String">Percentage of gross public debt</Data></Cell>
+			
+							<Cell><Data ss:Type="Number">1.7056498</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">1.8677238</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">2.0188508</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">2.2340005</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">2.3212545</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">2.3634167</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">2.5796465</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">2.8775012</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.0615426</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.4826710</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.6950979</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.7177414</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.9106229</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.6210965</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.5676189</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.3517576</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.4786053</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.6737226</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.9160354</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.3005552</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.6590529</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+		</Row>
+
+		<Row>
+						<Cell><Data ss:Type="String">Euro area</Data></Cell>
+				    	<Cell><Data ss:Type="String">Percentage of gross public debt</Data></Cell>
+			
+							<Cell><Data ss:Type="Number">1.6442441</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">1.8068429</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">1.9130066</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">2.1151749</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">2.1896091</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">2.3417706</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">2.5274001</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">2.8075457</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.0242641</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.4520009</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.5964280</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.5596847</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.9218001</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.5869308</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.4471020</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.2441700</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.3649043</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.5784829</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.8887573</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.2594060</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.6226160</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.6228958</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.6917102</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">6.3951940</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">6.7977348</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">7.8157193</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+		</Row>
+
+		<Row>
+						<Cell><Data ss:Type="String">Euro area (12 countries)</Data></Cell>
+				    	<Cell><Data ss:Type="String">Percentage of gross public debt</Data></Cell>
+			
+							<Cell><Data ss:Type="Number">1.6390379</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">1.7993290</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">1.9046678</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">2.1079298</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">2.1798568</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">2.3296444</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">2.5140450</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">2.7946464</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.0124180</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.4415927</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.5887349</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.5520183</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.9110331</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.5818154</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.4420199</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.2388157</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.3597981</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.5710819</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.8796398</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.2477610</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.6084308</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.6063425</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.6775334</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">6.3884907</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">6.7922893</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">7.8107635</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+		</Row>
+
+		<Row>
+						<Cell><Data ss:Type="String">Belgium</Data></Cell>
+				    	<Cell><Data ss:Type="String">Percentage of gross public debt</Data></Cell>
+			
+							<Cell><Data ss:Type="Number">1.7705397</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">1.9425207</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">2.0337152</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">2.1187535</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">2.2794104</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">2.6286017</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">2.7891335</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.1151793</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.1780201</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.4613358</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.6487592</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.7226113</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.1106191</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.7235256</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.6538933</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.5670989</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.7351249</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.0440590</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.2867818</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.5779133</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">6.1826239</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">6.1580246</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">6.0619712</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">6.2389809</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">6.3351857</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">6.6479171</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+		</Row>
+
+		<Row>
+						<Cell><Data ss:Type="String">Bulgaria</Data></Cell>
+				    	<Cell><Data ss:Type="String">Percentage of gross public debt</Data></Cell>
+			
+							<Cell><Data ss:Type="Number">2.8010490</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">2.8010490</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">2.7250823</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">2.8010490</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">2.9773134</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.6222246</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.6223574</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.1738076</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.3993927</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.3183301</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.0795397</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.2084104</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.5966796</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.8931243</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">6.3354842</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.5285646</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.9713323</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.7817278</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.5887356</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.7660596</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">6.5069796</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">6.0640959</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.9878141</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.2168809</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+		</Row>
+
+		<Row>
+						<Cell><Data ss:Type="String">Czechia</Data></Cell>
+				    	<Cell><Data ss:Type="String">Percentage of gross public debt</Data></Cell>
+			
+							<Cell><Data ss:Type="Number">2.4630280</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">2.7544653</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">2.3398127</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">2.2855334</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">2.1536149</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">2.3849084</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">2.6937526</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.0501866</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.0473090</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.5998312</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.5822358</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.9454492</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.2500169</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.7938378</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.2216383</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.9874372</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.0403543</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.1632143</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.2245153</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.0324872</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.8712243</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.3095301</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">6.8144968</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">9.5784739</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">9.7286296</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">9.4689469</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+		</Row>
+
+		<Row>
+						<Cell><Data ss:Type="String">Denmark</Data></Cell>
+				    	<Cell><Data ss:Type="String">Percentage of gross public debt</Data></Cell>
+			
+							<Cell><Data ss:Type="Number">1.8922670</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">2.3171134</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">2.1689564</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">2.3111218</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">2.1966859</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">2.8507631</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.5997250</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.4307208</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.7730415</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.0296781</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.7198325</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.9727741</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.5036684</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.4357061</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.3046390</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.0765819</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.9023367</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.6949426</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.7401669</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">6.5673737</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">6.6768870</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+		</Row>
+
+		<Row>
+						<Cell><Data ss:Type="String">Germany</Data></Cell>
+				    	<Cell><Data ss:Type="String">Percentage of gross public debt</Data></Cell>
+			
+							<Cell><Data ss:Type="Number">0.9899995</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">1.1800000</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">1.3309728</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">1.4966941</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">1.5793992</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">1.7292468</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">1.9285667</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">2.1300865</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">2.3107015</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">2.9531210</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.1799756</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.5324383</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.8685242</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.2367075</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.2061413</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.1911057</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.2850728</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.5256092</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.9225998</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.2137358</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.2746521</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.4177480</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.3257828</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.8568427</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">6.0061718</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">6.4143256</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+		</Row>
+
+		<Row>
+						<Cell><Data ss:Type="String">Estonia</Data></Cell>
+				    	<Cell><Data ss:Type="String">Percentage of gross public debt</Data></Cell>
+			
+							<Cell><Data ss:Type="Number">0.0777142</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">0.1270287</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">0.4691381</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">0.3740087</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">0.3519379</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">0.3562145</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">0.5446265</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">0.7031331</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">0.7943262</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">1.8687950</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">1.5785722</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">1.2706480</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.4961302</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.5546559</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.2827575</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.2205965</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.2808562</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.3496018</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.5382705</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">6.0887822</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.8795944</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.0574713</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">6.6490241</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">9.4465649</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">6.1002179</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">9.2747253</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+		</Row>
+
+		<Row>
+						<Cell><Data ss:Type="String">Ireland</Data></Cell>
+				    	<Cell><Data ss:Type="String">Percentage of gross public debt</Data></Cell>
+			
+							<Cell><Data ss:Type="Number">1.7999997</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">1.9350000</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">2.1651956</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">2.6420173</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">2.9613376</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.1069365</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.4119767</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.5240490</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.6946090</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.8464308</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.9994079</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.5351266</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.2908780</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.0966639</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.5432969</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.1692918</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.9532139</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.9342238</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.2720952</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.4239536</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.4940314</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.8766456</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.2955430</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">6.2858894</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">6.1068755</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">6.1408663</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+		</Row>
+
+		<Row>
+						<Cell><Data ss:Type="String">Greece</Data></Cell>
+				    	<Cell><Data ss:Type="String">Percentage of gross public debt</Data></Cell>
+			
+							<Cell><Data ss:Type="Number">1.5072190</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">1.5343954</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">1.6446435</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">1.9144212</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">1.7669280</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">1.8002817</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">1.9650908</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">2.2059420</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">2.4311258</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">2.8284700</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.7188190</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.5369392</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.5215749</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.8571369</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.6378417</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.4972333</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.6933491</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.1066057</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.1111370</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.5856563</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">6.4540505</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">7.3145111</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">8.3122332</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">8.4534944</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">9.1511593</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">11.4725804</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+		</Row>
+
+		<Row>
+						<Cell><Data ss:Type="String">Spain</Data></Cell>
+				    	<Cell><Data ss:Type="String">Percentage of gross public debt</Data></Cell>
+			
+							<Cell><Data ss:Type="Number">2.1156490</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">2.3021091</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">2.4246856</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">2.5588225</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">2.6482182</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">2.8649287</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.1173152</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.6264775</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.9784967</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.2056785</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.0725376</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.5662426</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.1657116</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.5603673</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.3375700</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.1089868</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.1552959</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.4684214</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.8052168</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.2026615</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.5572316</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.6553560</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.8620102</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">6.7707350</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">7.3577393</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">8.6785650</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+		</Row>
+
+		<Row>
+						<Cell><Data ss:Type="String">France</Data></Cell>
+				    	<Cell><Data ss:Type="String">Percentage of gross public debt</Data></Cell>
+			
+							<Cell><Data ss:Type="Number">1.1913819</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">1.3327171</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">1.5091043</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">1.7859602</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">1.8157343</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">1.9554028</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">2.1476221</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">2.3482430</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">2.5824553</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.0246295</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.2745447</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.1360406</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.5940353</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.5760643</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.3739835</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.0411994</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.2462943</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.5024734</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.8425262</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.2804291</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.3239853</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.1043295</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.1406337</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.7243026</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">6.0638326</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">6.5296998</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+		</Row>
+
+		<Row>
+						<Cell><Data ss:Type="String">Croatia</Data></Cell>
+				    	<Cell><Data ss:Type="String">Percentage of gross public debt</Data></Cell>
+			
+							<Cell><Data ss:Type="Number">2.7808767</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">2.8948061</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.1041144</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.1133280</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.4320345</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.7791819</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.1644337</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.2319066</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.4766367</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.7447177</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.6880340</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.8764177</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.3757060</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.1204990</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.6923285</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.3556424</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.7620238</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.0068923</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.9982749</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.9165938</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.1372472</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.9036316</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">7.4756597</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">6.6876962</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">6.2382144</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">7.0429380</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+		</Row>
+
+		<Row>
+						<Cell><Data ss:Type="String">Italy</Data></Cell>
+				    	<Cell><Data ss:Type="String">Percentage of gross public debt</Data></Cell>
+			
+							<Cell><Data ss:Type="Number">2.4037044</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">2.5108659</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">2.5328207</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">2.7739652</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">2.8638634</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">2.9645319</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.0909264</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.4893318</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.7905774</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.2480220</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.9911787</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.7477815</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.9994950</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.7944215</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.6260246</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.3277733</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.4038901</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.5367929</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.8110152</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.1660960</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.8375290</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.7008808</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.7598385</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">6.9985546</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">8.0126422</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">9.7934984</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">10.2612166</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+		</Row>
+
+		<Row>
+						<Cell><Data ss:Type="String">Cyprus</Data></Cell>
+				    	<Cell><Data ss:Type="String">Percentage of gross public debt</Data></Cell>
+			
+							<Cell><Data ss:Type="Number">1.9182308</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">2.3475522</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">2.5917022</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">2.7139220</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">2.6069605</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">2.6320321</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">2.9789047</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">2.9759868</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.9734930</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.6806555</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.8698899</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.7458946</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.9892016</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.2758960</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.1973802</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.0219084</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.2293772</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.0133535</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.6970742</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.3740603</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">6.1149495</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">6.1780471</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.5178841</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.8166733</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.8646763</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.7906100</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+		</Row>
+
+		<Row>
+						<Cell><Data ss:Type="String">Latvia</Data></Cell>
+				    	<Cell><Data ss:Type="String">Percentage of gross public debt</Data></Cell>
+			
+							<Cell><Data ss:Type="Number">1.8911177</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">1.9487558</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">1.9480648</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">2.0279162</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">2.4569945</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">2.8669332</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.3017956</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.7544257</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.7073360</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.1300470</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.1642446</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.6159912</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">6.4586724</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">7.3700130</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.9570417</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.8139707</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.6163359</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">6.1012302</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">6.6297787</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.8585956</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">8.1572600</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">8.4940555</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">7.3429151</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">6.7664983</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">7.5761974</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">10.8144074</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+		</Row>
+
+		<Row>
+						<Cell><Data ss:Type="String">Lithuania</Data></Cell>
+				    	<Cell><Data ss:Type="String">Percentage of gross public debt</Data></Cell>
+			
+							<Cell><Data ss:Type="Number">1.2863910</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">1.5065346</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">2.7761280</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">2.4110218</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.0468683</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.2481991</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.8360220</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.3007055</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.6503721</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.6637115</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.6710242</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">6.7751876</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">6.9969131</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.6445539</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.6318553</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.5384802</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.7208107</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.8225175</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">6.1154692</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">6.1052988</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">6.8000000</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">8.0295259</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">8.6799461</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">8.1861059</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">6.3514613</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">9.0519843</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+		</Row>
+
+		<Row>
+						<Cell><Data ss:Type="String">Luxembourg</Data></Cell>
+				    	<Cell><Data ss:Type="String">Percentage of gross public debt</Data></Cell>
+			
+							<Cell><Data ss:Type="Number">0.9144250</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">1.1987988</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">1.2948063</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">1.4046156</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">1.6571529</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">1.5219309</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">1.6365883</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">1.9072132</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">2.6671819</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">2.8160275</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">2.5809280</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">2.7713386</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">2.4327971</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.0605136</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.8940766</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.1935912</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">2.6535048</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">2.7251294</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.3297576</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.7491775</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.0834688</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.9155829</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.8920231</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.5463955</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.1459443</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.6710697</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+		</Row>
+
+		<Row>
+						<Cell><Data ss:Type="String">Hungary</Data></Cell>
+				    	<Cell><Data ss:Type="String">Percentage of gross public debt</Data></Cell>
+			
+							<Cell><Data ss:Type="Number">3.5550357</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.7216891</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.5729482</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.6040164</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.8384032</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.2201983</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.7906508</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.5486034</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">6.0398069</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.7555387</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.3652992</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.4315396</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">6.1059622</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">6.5510691</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">6.6142118</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">6.8429967</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">7.3782103</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">8.2203722</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">7.9530909</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">8.6693972</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">9.7579309</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">10.0185932</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">12.3323609</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">13.3937102</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">14.6614540</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">13.1232329</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+		</Row>
+
+		<Row>
+						<Cell><Data ss:Type="String">Malta</Data></Cell>
+				    	<Cell><Data ss:Type="String">Percentage of gross public debt</Data></Cell>
+			
+							<Cell><Data ss:Type="Number">3.0840934</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.2788593</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.2123979</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.3562245</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.5954748</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.8749060</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.1990724</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.4110894</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.5131923</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.4840095</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.8707352</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.9004262</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.2332551</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.7183507</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.7672262</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.5268412</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.5636426</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.4824081</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.9075607</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">6.2707659</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">6.3178787</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">7.1017746</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">7.9266902</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">6.5712299</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">6.6852751</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.9862188</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+		</Row>
+
+		<Row>
+						<Cell><Data ss:Type="String">Netherlands</Data></Cell>
+				    	<Cell><Data ss:Type="String">Percentage of gross public debt</Data></Cell>
+			
+							<Cell><Data ss:Type="Number">1.4114459</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">1.4811357</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">1.5383325</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">1.6435904</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">1.6871516</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">1.8277137</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">1.9708888</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">2.2059301</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">2.3811506</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">2.7300165</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.0760659</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.2131016</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.5908129</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.9660500</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.6089787</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.2922444</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.4912115</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.7952929</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.9743124</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.4079692</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.9016993</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">6.0608651</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">6.5957059</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">6.7910162</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">6.6496653</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">6.7836296</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+		</Row>
+
+		<Row>
+						<Cell><Data ss:Type="String">Austria</Data></Cell>
+				    	<Cell><Data ss:Type="String">Percentage of gross public debt</Data></Cell>
+			
+							<Cell><Data ss:Type="Number">1.8138839</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">1.9718480</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">1.9850908</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">2.1623270</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">2.2930505</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">2.5473834</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">2.8675505</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.0845479</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.2285604</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.3811137</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.5289591</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.7221159</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.4852904</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.6875448</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.9383924</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.8153793</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.1821561</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.7713869</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.8735359</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.3063521</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.6288519</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.5929650</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.5832560</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.8606442</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.4532606</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.9324880</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+		</Row>
+
+		<Row>
+						<Cell><Data ss:Type="String">Poland</Data></Cell>
+				    	<Cell><Data ss:Type="String">Percentage of gross public debt</Data></Cell>
+			
+							<Cell><Data ss:Type="Number">2.5094378</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.0709909</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.0292468</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.0344763</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.0833742</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.4413337</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.6236061</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.6228479</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.7118773</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.0707573</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.1280261</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.2635121</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.5992650</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.1453919</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.1155808</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.4871378</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.7945100</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">6.4059565</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">7.4005285</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">8.0221580</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">8.9377453</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">8.5784398</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">8.4470279</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">10.9376204</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">12.7884721</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">11.7569570</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+		</Row>
+
+		<Row>
+						<Cell><Data ss:Type="String">Portugal</Data></Cell>
+				    	<Cell><Data ss:Type="String">Percentage of gross public debt</Data></Cell>
+			
+							<Cell><Data ss:Type="Number">2.7543579</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">2.7172524</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">2.5592857</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">2.7906853</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.0169367</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.2827337</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.5813931</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.7685918</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.7925901</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.0718031</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.2274773</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.4299349</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.8674573</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.3781063</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.2501818</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.0387018</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.9853501</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.1884363</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.5387400</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.1924706</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.8345380</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.8311767</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.6887454</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.8191269</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">6.5636692</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">8.2259081</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+		</Row>
+
+		<Row>
+						<Cell><Data ss:Type="String">Romania</Data></Cell>
+				    	<Cell><Data ss:Type="String">Percentage of gross public debt</Data></Cell>
+			
+							<Cell><Data ss:Type="Number">4.0000000</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.0000000</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.9479587</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.6062406</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.7801027</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.2627325</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.4409644</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.6204325</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.0780482</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.4827261</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.7772406</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">6.8997783</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">11.4172064</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">6.9884895</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">6.7038017</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">6.3049715</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">7.6950954</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">8.4095344</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">8.3566830</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">12.3229662</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">22.2262547</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">26.6649965</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">44.8106152</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">38.3808135</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">93.2131934</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">40.4411765</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+		</Row>
+
+		<Row>
+						<Cell><Data ss:Type="String">Slovenia</Data></Cell>
+				    	<Cell><Data ss:Type="String">Percentage of gross public debt</Data></Cell>
+			
+							<Cell><Data ss:Type="Number">2.2324523</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">2.6389406</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">2.5487742</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">2.8857217</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.4030700</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.8272967</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.1421712</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.7772540</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.7812048</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.2425915</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.0194737</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.7242660</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.7396672</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.1914246</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.3306103</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.6172582</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">6.0091237</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">6.6997638</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">7.6344220</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">9.2102112</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">10.0137115</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">10.8997429</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">11.3947557</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">10.7771698</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">12.2981177</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">12.8348214</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+		</Row>
+
+		<Row>
+						<Cell><Data ss:Type="String">Slovakia</Data></Cell>
+				    	<Cell><Data ss:Type="String">Percentage of gross public debt</Data></Cell>
+			
+							<Cell><Data ss:Type="Number">2.2803810</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">2.6366519</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">2.6106761</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">2.7835902</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">2.8854527</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.3175946</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.4682029</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.6310491</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.7274458</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.2377240</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.9518386</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.7876571</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.7595597</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.8060750</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.0274097</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.6753543</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.5163300</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.6095045</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">6.1557978</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">7.5607451</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">8.5792360</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">9.5149717</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">10.7059213</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">8.4327822</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">8.7122772</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">13.0102615</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+		</Row>
+
+		<Row>
+						<Cell><Data ss:Type="String">Finland</Data></Cell>
+				    	<Cell><Data ss:Type="String">Percentage of gross public debt</Data></Cell>
+			
+							<Cell><Data ss:Type="Number">0.9931809</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">1.2305010</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">1.4807212</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">1.5503316</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">1.6693470</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">1.7780553</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">1.9777343</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">2.2169417</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">2.4146344</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">2.9986608</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.1162179</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.3080734</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.8163594</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.2774931</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.0216105</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.9249380</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.9189329</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.1405889</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.6177570</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.0906449</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">6.3753755</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">6.6157060</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">6.5231919</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">7.1053268</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">7.9634842</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">7.6226748</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">7.4151129</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">7.8613913</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">11.1067669</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">11.0496947</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">12.7281422</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">10.2012435</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">9.5125227</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">10.0092290</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">10.5227295</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">11.1014367</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">12.4474140</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">11.5310874</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">11.5006775</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">11.4918894</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">10.4161145</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">9.9628713</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">9.3920641</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">10.9908884</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">12.9673827</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">10.4237288</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+		</Row>
+
+		<Row>
+						<Cell><Data ss:Type="String">Sweden</Data></Cell>
+				    	<Cell><Data ss:Type="String">Percentage of gross public debt</Data></Cell>
+			
+							<Cell><Data ss:Type="Number">0.8500000</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">0.8500000</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">1.0297383</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">1.2916732</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">1.1709671</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">1.2839997</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">1.3963704</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">1.8014362</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">2.2364081</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">2.4933305</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.1795168</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">2.8464213</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.0948300</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.2674329</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.1396966</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.6447341</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.8237327</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.6772853</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.4453374</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.8679522</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.4741916</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.8536400</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">6.1444539</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">6.8389206</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">7.5709195</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">7.7008283</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+		</Row>
+
+		<Row>
+						<Cell><Data ss:Type="String">United Kingdom</Data></Cell>
+				    	<Cell><Data ss:Type="String">Percentage of gross public debt</Data></Cell>
+			
+							<Cell><Data ss:Type="Number">2.0800984</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">2.2927987</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">2.6097969</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">2.9380751</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.2027675</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">2.8844809</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">2.7351663</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.2679264</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.4835815</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.6460540</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.3357073</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.6357562</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.6080682</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.3249868</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.5540567</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.2027630</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.3539745</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.4298836</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.5267665</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.5696732</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.9598197</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">6.4772163</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">6.5156522</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">7.4059416</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">7.4000695</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">7.3679758</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">8.0677809</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">7.1470023</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">8.2005890</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+		</Row>
+
+		<Row>
+						<Cell><Data ss:Type="String">Albania</Data></Cell>
+				    	<Cell><Data ss:Type="String">Percentage of gross public debt</Data></Cell>
+			
+							<Cell><Data ss:Type="Number">3.3737827</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.7737827</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.1737827</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.5201395</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+		</Row>
+
+		<Row>
+						<Cell><Data ss:Type="String">Montenegro</Data></Cell>
+				    	<Cell><Data ss:Type="String">Percentage of gross public debt</Data></Cell>
+			
+							<Cell><Data ss:Type="Number">2.7303242</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">2.6685527</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">2.9785595</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+		</Row>
+
+		<Row>
+						<Cell><Data ss:Type="String">North Macedonia</Data></Cell>
+				    	<Cell><Data ss:Type="String">Percentage of gross public debt</Data></Cell>
+			
+							<Cell><Data ss:Type="Number">3.1979548</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.1979548</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.4975456</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+		</Row>
+
+		<Row>
+						<Cell><Data ss:Type="String">Serbia</Data></Cell>
+				    	<Cell><Data ss:Type="String">Percentage of gross public debt</Data></Cell>
+			
+							<Cell><Data ss:Type="Number">3.9431242</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.9431242</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.9470088</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+		</Row>
+
+		<Row>
+						<Cell><Data ss:Type="String">Turkey</Data></Cell>
+				    	<Cell><Data ss:Type="String">Percentage of gross public debt</Data></Cell>
+			
+							<Cell><Data ss:Type="Number">13.3091552</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">13.3091552</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">13.3091552</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">12.6091552</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">9.1391552</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">8.0104062</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">7.7963566</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">8.0102593</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">8.2636940</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">8.8899525</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">9.0734931</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">10.1873507</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">12.0433856</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+		</Row>
+
+		<Row>
+						<Cell><Data ss:Type="String">Iceland</Data></Cell>
+				    	<Cell><Data ss:Type="String">Percentage of gross public debt</Data></Cell>
+			
+							<Cell><Data ss:Type="Number">6.1531881</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">6.4509935</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">6.3684483</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">7.8395522</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">6.5103260</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">6.1531881</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.8925512</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.2556753</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.1968744</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.9348716</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.8642039</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">9.2063206</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">12.7450796</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">9.4037264</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">9.7364884</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">7.0903256</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">6.8355102</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">7.2317200</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">7.3932503</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">10.0802807</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">9.2558711</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">8.5117427</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+		</Row>
+
+		<Row>
+						<Cell><Data ss:Type="String">Norway</Data></Cell>
+				    	<Cell><Data ss:Type="String">Percentage of gross public debt</Data></Cell>
+			
+							<Cell><Data ss:Type="Number">1.3000000</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">1.2998768</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">1.2966616</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">1.3898483</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">1.2500249</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">1.6795205</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">2.4201407</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">2.3412933</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">2.4351428</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">2.8048567</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">2.3366564</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">2.6888232</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">2.5740493</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.4954070</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.2664506</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">6.4165990</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.1583208</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.9043735</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.6260882</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">6.7412052</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">7.1474199</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+		</Row>
+
+		<Row>
+						<Cell><Data ss:Type="String">Japan</Data></Cell>
+				    	<Cell><Data ss:Type="String">Percentage of gross public debt</Data></Cell>
+			
+							<Cell><Data ss:Type="Number">0.6154322</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">0.6339532</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">0.6532485</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">0.6751512</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">0.7161243</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">0.7726729</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">0.8004281</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">0.8473082</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">0.8751728</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">0.9054987</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">0.9438618</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">0.9765382</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">1.0185383</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">1.0950871</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">1.0654676</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">0.9877828</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">1.0122463</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">1.1592020</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">1.3181432</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">1.5907904</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">1.9736198</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">2.4231052</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">2.7429417</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.0518341</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.2758841</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.4947401</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.9570553</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.4383976</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.9358836</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.4680604</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.6550260</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.6852833</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.2849403</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.2868608</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.5716051</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">6.1670756</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">6.6121393</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">6.7213828</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">6.9729854</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">7.0071836</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+		</Row>
+
+		<Row>
+						<Cell><Data ss:Type="String">United States</Data></Cell>
+				    	<Cell><Data ss:Type="String">Percentage of gross public debt</Data></Cell>
+			
+							<Cell><Data ss:Type="Number">3.1443021</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.5402968</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.7338036</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.8935960</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.7464356</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.7872169</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.7430270</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">3.9134441</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.0261675</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.4484542</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">4.7371645</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.0726128</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">5.6230607</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">6.2181929</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">6.6328066</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">6.4387362</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">6.3270517</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">6.9983955</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">7.6402945</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">7.8303899</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">8.2086011</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">7.9688277</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">8.0004207</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">8.2889135</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">8.6078488</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">8.8857419</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">9.1069812</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">8.7609347</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">9.1752153</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">9.9059305</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">10.7343758</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">10.9254775</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">11.1235478</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">11.2051578</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">11.5474119</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">12.5336810</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">13.9869201</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">14.6338807</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">14.8296254</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">15.5841216</Data></Cell>
+					
+							<Cell><Data ss:Type="Number">14.9688802</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+							<Cell><Data ss:Type="String">NA</Data></Cell>
+					
+		</Row>
+
+  </Table>
+ <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+ <ProtectObjects>False</ProtectObjects>
+ <ProtectScenarios>False</ProtectScenarios>
+ </WorksheetOptions>
+ </Worksheet>
+</Workbook> 
