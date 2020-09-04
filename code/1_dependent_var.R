@@ -24,5 +24,5 @@ dat <- dat %>% filter(is.na(year) == F); summary(dat) #some days are missing
 
 dat <- dat[, .(spr = mean(spr, na.rm = T)), by = .(year, iso3)]
 
-dep <- dat
+dep <- data.table(dat)
 rm(dat)
