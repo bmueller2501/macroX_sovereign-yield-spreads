@@ -1,12 +1,4 @@
 
-library(pacman)
-p_load(readxl)
-p_load(dplyr)
-p_load(tidyverse)
-p_load(countrycode)
-p_load(data.table)
-
-
 #load data
 dat <- readxl::read_xls("./input/spreads.xls")
 c <- colnames(dat[,2:ncol(dat)])

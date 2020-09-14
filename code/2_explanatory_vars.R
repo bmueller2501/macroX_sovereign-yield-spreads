@@ -1,11 +1,4 @@
 
-require(pacman)
-pacman::p_load(openxlsx)
-pacman::p_load(reshape2)
-pacman::p_load(dplyr)
-pacman::p_load(countrycode)
-p_load(data.table)
-
 vars <- getSheetNames("./input/full_data.xlsx")
 
 full_data_list <- list()
