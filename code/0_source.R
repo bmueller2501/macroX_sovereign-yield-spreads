@@ -16,4 +16,4 @@ setwd("C:/Users/Viktor/Dropbox/GitHub/macroX_sovereign-yield-spreads/")
 
 source(paste("./code/1_dependent_var.R", sep =""))
 source(paste("./code/2_explanatory_vars.R", sep =""))
-#source(paste("./code/3_merge_model.R", sep =""))
+source(paste("./code/3_merge_model.R", sep =""))

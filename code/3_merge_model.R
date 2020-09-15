@@ -2,11 +2,11 @@
 dat <- merge(dep, exp, by = c("year", "iso3"))
 summary(dat)
 
-#clean data, remove NA
+# clean data, remove NA
 dat <- na.omit(dat)
 dat_rel <- dat
 
-#calc vaules relative to germany
+# calc vaules relative to germany
 deu <- subset(dat_rel, iso3 == "DEU")
 for(v in vars) {
   for(y in unique(dat_rel$year)) {
@@ -17,17 +17,21 @@ for(v in vars) {
 }
 rm(deu)
 
-
-#subset countries joined 1999
+# @Benjamin: würde ich vorziehen zu 0_source wie in 2_explanatory_vars.R beschrieben
+# subset countries joined 1999
 j99 <- c("AUT", "BEL", "DEU", "ESP", "FIN", "FRA", "ITA", "NLD", "PRT", "IRL", "LUX")
 
 
-#model, first try with BMS pack and data relative to germany
+# model, first try with BMS pack and data relative to germany
+
 moddat <- dat_rel %>% 
-  filter(year %in% c(1999:2007), iso3 != "DEU") %>% 
+  filter(year %in% c(1999:2019), iso3 != "DEU") %>% 
   filter(iso3 %in% j99) %>%
   select(spr, vars) %>%
-  select(-c(gdp, i_us, baa, pspp))
+  select(-c(pspp, # @Benjamin: error if i include the new measure of PSPP? why?
+            i_us,
+            baa,
+            gdp))
 
 moddat <- as.matrix(moddat)
 
