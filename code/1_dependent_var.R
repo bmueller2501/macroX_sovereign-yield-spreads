@@ -12,6 +12,8 @@ dat <- gather(data = dat, key = "iso3", value = "spr", c) %>%
   mutate(iso3 = countrycode(iso3, "iso2c", "iso3c")) %>%
   as.data.table
 
+dat$iso3[dat$iso3 == "IRN"] <- "IRL"
+
 dat <- dat %>% filter(is.na(year) == F); summary(dat) #some days are missing
 
 dat <- dat[, .(spr = mean(spr, na.rm = T)), by = .(year, iso3)]
