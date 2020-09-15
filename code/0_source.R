@@ -9,10 +9,10 @@ pacman::p_load(data.table)
 pacman::p_load(openxlsx)
 pacman::p_load(reshape2)
 pacman::p_load(countrycode)
-p_load(BMS)
+pacman::p_load(BMS)
 
-#setwd("C:/Users/Viktor/Dropbox/GitHub/macroX_sovereign-yield-spreads/")
-setwd("C:/Users/bmuel/Desktop/GitHub/macroX_sovereign-yield-spreads")
+setwd("C:/Users/Viktor/Dropbox/GitHub/macroX_sovereign-yield-spreads/")
+#setwd("C:/Users/bmuel/Desktop/GitHub/macroX_sovereign-yield-spreads")
 
 source(paste("./code/1_dependent_var.R", sep =""))
 source(paste("./code/2_explanatory_vars.R", sep =""))
