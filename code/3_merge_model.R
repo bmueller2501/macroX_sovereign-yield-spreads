@@ -32,4 +32,4 @@ moddat <- dat_rel %>%
 
 moddat <- as.matrix(moddat)
 
-mod.BMS <- bms(moddat, burn = 2000, iter = 10000, mprior = "random", mcmc = "bd"); summary(mod.BMS)
+mod.BMS <- bms(moddat, burn = 2000, iter = 10000, mprior = "uniform", mcmc = "bd"); summary(mod.BMS)
