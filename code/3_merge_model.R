@@ -31,7 +31,8 @@ for(v in vars) {
 }
 rm(deu, deu_lagged)
 
-# model, first try with BMS pack and data relative to Germany
+#############################
+# FUNCTIONS -----------------
 
 setup_model <- function(data){
   return(data %>% 
@@ -50,6 +51,48 @@ run_model <- function(data){
   
   return(bms(moddat, burn = 1000, iter = 20000, g = "BRIC", mprior = "uniform", mcmc = "bd"))
 }
+variables.bma <- data.frame(
+  No = 1:13,#14,
+  code = c("bb", "debt_ratio", "i_avg", "g", "inf", "inf_var", "gcf", "tb", #"open",
+           "tot_g", "debt", "debt_ea", "i_us", "baa"),
+  Variable = c(
+    # Country specific yield spread drivers
+    "Budget balance to GDP",
+    "Total government debt to GDP",
+    "Average interest rate",
+    "GDP growth",
+    "Inflation",
+    "Inflation variation",
+    "Capital formation",
+    "Trade balance",
+    # "Openness",
+    "Terms of Trade growth",
+    # Liquidity indicators
+    "Total government debt",
+    "Total government debt to total government debt of all EMU countries",
+    # Global conditions
+    "Global capital costs: US interest rate",
+    "Market sentiment: BBB rated US corporate bond spread to US treasuries")
+)
+model_results_as_table <- function(model){
+  cf <- as.data.frame(coef(model, exact = TRUE))
+  cf$code <- row.names(cf)
+  
+  cf <- cf %>% 
+    # join variables.bma to get naming and ordering right
+    left_join(variables.bma, by = c("code")) %>% 
+    # prepare for output
+    mutate(
+      PI = round(PIP*100, 1),
+      DI = if_else(Cond.Pos.Sign == 0.5, "+/-",
+                   if_else(Cond.Pos.Sign > 0.5, "+", "-"))
+    ) %>% 
+    arrange(No) %>% 
+    select(No, Variable, PI, DI)
+  
+  return(cf)
+}
+
 
 moddat <- dat_rel %>% 
   filter(year %in% c(1999:2019)) %>% 
@@ -57,4 +100,6 @@ moddat <- dat_rel %>%
 
 mod.BMS <- run_model(moddat)
 
-coef(mod.BMS, exact = TRUE) # exact=TRUE: This means that the marginal likelihoods are used for BMA
+model_results_as_table(mod.BMS)
+
+# coef(mod.BMS, exact = TRUE) # exact=TRUE: This means that the marginal likelihoods are used for BMA
