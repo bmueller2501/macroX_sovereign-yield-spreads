@@ -15,6 +15,7 @@ moddat <- dat_rel %>%
   setup_model()
 
 mod.BMS.baseline <- run_model(moddat)
+model_results_as_table(mod.BMS.baseline)
 
 #### 1.1.2 lagged (1999-2009)
 moddat <- dat_lagged_rel %>% 
@@ -22,6 +23,7 @@ moddat <- dat_lagged_rel %>%
   setup_model()
 
 mod.BMS.lagged <- run_model(moddat)
+model_results_as_table(mod.BMS.lagged)
 
 #### 1.1.3 pre-crisis (1999-2007)
 moddat <- dat_rel %>% 
@@ -29,6 +31,7 @@ moddat <- dat_rel %>%
   setup_model()
 
 mod.BMS.precrisis <- run_model(moddat)
+model_results_as_table(mod.BMS.precrisis)
 
 ## 2. actual robustness checks
 
@@ -37,11 +40,14 @@ moddat <- dat %>%
   filter(year %in% c(1999:2009)) %>% 
   setup_model()
 
-mod.BMS.precrisis <- run_model(moddat)
+mod.BMS.unmodified <- run_model(moddat)
+model_results_as_table(mod.BMS.unmodified)
 
 ### 2.2 check if robust to model prior (e.g. change to "random" model prior)
 moddat <- dat_rel %>% 
   filter(year %in% c(1999:2019)) %>% 
   setup_model()
+moddat <- as.matrix(moddat)
 
-mod.BMS <- bms(moddat, burn = 1000, iter = 10000, g = "BRIC", mprior = "random", mcmc = "bd")
+mod.BMS.g.random <- bms(moddat, burn = 1000, iter = 10000, g = "BRIC", mprior = "random", mcmc = "bd")
+model_results_as_table(mod.BMS.g.random)

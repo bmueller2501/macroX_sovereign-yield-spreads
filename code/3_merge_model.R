@@ -49,11 +49,11 @@ setup_model <- function(data){
 run_model <- function(data){
   moddat <- as.matrix(data)
   
-  return(bms(moddat, burn = 1000, iter = 20000, g = "BRIC", mprior = "uniform", mcmc = "bd"))
+  return(bms(moddat, burn = 5000, iter = 30000, g = "BRIC", mprior = "uniform", mcmc = "bd"))
 }
 variables.bma <- data.frame(
-  No = 1:13,#14,
-  code = c("bb", "debt_ratio", "i_avg", "g", "inf", "inf_var", "gcf", "tb", #"open",
+  No = 1:14,
+  code = c("bb", "debt_ratio", "i_avg", "g", "inf", "inf_var", "gcf", "tb", "openness",
            "tot_g", "debt", "debt_ea", "i_us", "baa"),
   Variable = c(
     # Country specific yield spread drivers
@@ -65,7 +65,7 @@ variables.bma <- data.frame(
     "Inflation variation",
     "Capital formation",
     "Trade balance",
-    # "Openness",
+    "Openness",
     "Terms of Trade growth",
     # Liquidity indicators
     "Total government debt",
