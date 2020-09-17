@@ -37,7 +37,11 @@ full_data$tb <- full_data$tb/full_data$gdp
 full_data <- data.table(full_data)
 full_data[, debt_ea := debt/sum(debt), by = year]
 
-
+# calculate terms of trade growth for tot_imf
+full_data <- full_data %>% 
+  group_by(iso3) %>% 
+  # 0 for now until we have data for 1998
+  mutate(tot_g = ifelse(year == min(full_data$year), 0, tot_imf - lag(tot_imf)))
 
 # PSPP
 # comment out line 1 and line 2 if you want it in absolute terms

@@ -1,35 +1,49 @@
 # merge the data into one data.table
 dat <- merge(dep, exp, by = c("year", "iso3"))
-summary(dat)
+dat_lagged <- merge(dep, exp_lagged, by = c("year", "iso3"))
 
 # remove cds for now since we don't have full coverage
 dat <- dat %>% select(-cds)
+dat_lagged <- dat_lagged %>% select(-cds)
 vars <- vars[vars != "cds"] 
 
 # clean data, remove NA
 dat <- na.omit(dat)
 dat_rel <- dat
+dat_lagged <- na.omit(dat_lagged)
+dat_lagged_rel <- dat_lagged
 
 # calc values relative to Germany
 deu <- subset(dat_rel, iso3 == "DEU")
+deu_lagged <- subset(dat_lagged_rel, iso3 == "DEU")
 for(v in vars) {
+  if(v %in% c("i_us", "baa")){ next }
+  
   for(y in unique(dat_rel$year)) {
     dat_rel[[paste0(v)]][dat_rel$year == y] <- 
       dat_rel[[paste0(v)]][dat_rel$year == y]-deu[[paste0(v)]][deu$year == y]
+    
+    if(y %in% unique(deu_lagged$year)){
+      dat_lagged_rel[[paste0(v)]][dat_lagged_rel$year == y] <- 
+        dat_lagged_rel[[paste0(v)]][dat_lagged_rel$year == y]-deu_lagged[[paste0(v)]][deu_lagged$year == y]
+    }
   }
 }
-rm(deu)
+rm(deu, deu_lagged)
 
 # model, first try with BMS pack and data relative to Germany
 
-setup_model <- function(data_rel){
-  return(dat_rel %>% 
+setup_model <- function(data){
+  return(data %>% 
            filter(iso3 != "DEU") %>% 
            select(spr, vars) %>%
            select(-c(pspp,
-                     i_us,
-                     baa,
-                     gdp)))
+                     reer,
+                     gdp,
+                     tot_oecd,
+                     tot_eiu,
+                     tot_imf,
+                     emu)))
 }
 
 moddat <- dat_rel %>% 
@@ -38,6 +52,6 @@ moddat <- dat_rel %>%
 
 moddat <- as.matrix(moddat)
 
-mod.BMS <- bms(moddat, burn = 100000, iter = 200000, g = "BRIC", mprior = "uniform", mcmc = "bd"); summary(mod.BMS)
+mod.BMS <- bms(moddat, burn = 1000, iter = 20000, g = "BRIC", mprior = "uniform", mcmc = "bd")
 
 coef(mod.BMS, exact = TRUE) # exact=TRUE: This means that the marginal likelihoods are used for BMA
