@@ -1,7 +1,6 @@
 # merge the data into one data.table
-dat <- merge(dep, exp, by = c("year", "iso3")); summary(dat)
-dat_lagged <- merge(dep, exp_lagged, by = c("year", "iso3")); summary(dat_lagged)
-
+dat <- merge(dep_last, exp, by = c("year", "iso3")); summary(dat)
+dat_lagged <- merge(dep_last, exp_lagged, by = c("year", "iso3")); summary(dat_lagged)
 
 # remove cds, pensions and pension_index for now since we don't have full coverage
 dat <- dat %>% select(-c(cds, pensions, pensions_index))
@@ -95,7 +94,6 @@ model_results_as_table <- function(model){
   
   return(cf)
 }
-
 
 moddat <- dat_rel %>% 
   filter(year %in% c(1999:2019)) %>% 

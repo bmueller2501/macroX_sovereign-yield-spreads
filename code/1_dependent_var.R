@@ -30,3 +30,37 @@ rm(dat)
 if(joined_1999){
   dep <- dep %>% filter(iso3 %in% j99)
 }
+
+
+############################################
+# change dep variable to end of year value #
+
+dat <- readxl::read_xls("./input/spreads.xls")
+c <- colnames(dat[,2:ncol(dat)])
+
+# adjust table to get: year, iso3, spread
+dat <- gather(data = dat, key = "iso3", value = "spr", c) %>%
+  mutate(iso3 = countrycode(iso3, "iso2c", "iso3c")) %>%
+  as.data.table
+
+# get year from date, get last value for each year
+dat <- dat %>%
+  mutate(year = as.integer(substr(as.character(dat$date), 1, 4))) %>% 
+  group_by(iso3, year) %>% 
+  filter(date == max(date)) %>% 
+  select(-date) %>% 
+  ungroup()
+
+# fix code for Ireland
+dat$iso3[dat$iso3 == "IRN"] <- "IRL"
+
+# filter out entries with missing dates
+dat <- dat %>% filter(!is.na(year)); summary(dat)
+
+dep_last <- data.table(dat)
+rm(dat)
+
+# filter for countries that joined the EMU in 1999 in case setting is active
+if(joined_1999){
+  dep_last <- dep_last %>% filter(iso3 %in% j99)
+}
