@@ -1,4 +1,4 @@
-
+ssvs <- 1
 
 bayes.ssvs <- function(y, bigX, nburn, nsave, ssvs, fig) {
   
@@ -66,7 +66,7 @@ bayes.ssvs <- function(y, bigX, nburn, nsave, ssvs, fig) {
   
   # how does our normal - normal spike and slab prior look like?
   #par(mfrow=c(1,1),mar=c(1,1,1,1))
-  if(fig == T) {png("figures/bayes_ssvs/spike_slab_prior_bayes_ssvs.png")}
+  if(fig == T) {png("output/spike_slab_prior_bayes_ssvs.png")}
   plot(density(rnorm(10000, 0, sqrt(sig2h))),ylim=c(0,2)) #slab
   lines(density(rnorm(10000, 0, sqrt(sig2l))), col="red")   #spike
   if(fig == T) {dev.off()}
@@ -76,7 +76,7 @@ bayes.ssvs <- function(y, bigX, nburn, nsave, ssvs, fig) {
   C0 <- 1 #prior rate  of sigma2
   
   # how does this prior distribution look like?
-  #png("figures/bayes_ssvs/variance_prior_bayes_ssvs_wt.png")
+  #png("output/variance_prior_bayes_ssvs_wt.png")
   plot(density(1/rgamma(20000, c0, C0)))
   #dev.off()
   
@@ -233,7 +233,7 @@ bayes.ssvs <- function(y, bigX, nburn, nsave, ssvs, fig) {
   # we can use a few statistics to summarize the posterior distribution of any given parameter:
   
   # ... plot all posterior distributions
-  if(fig == T) {png("figures/bayes_ssvs/posterior_bayes_ssvs.png")}
+  if(fig == T) {png("output/posterior_bayes_ssvs.png")}
   par(mfrow=c(ceiling(P/2),2),mar=c(2,2,2,2))
   for(i in 1:P) {
     plot(density(beta.store[,i]), main = colnames(X)[i], 
@@ -245,7 +245,7 @@ bayes.ssvs <- function(y, bigX, nburn, nsave, ssvs, fig) {
   }
   if(fig == T) {dev.off()}
   
-  if(fig == T) {png("figures/bayes_ssvs/covar_box_bayes_ssvs.png")}
+  if(fig == T) {png("output/covar_box_bayes_ssvs.png")}
   par(mfrow=c(ceiling(P/2),2),mar=c(2,2,2,2))
   for(i in 1:P) {
     boxplot(beta.store[,i], main = colnames(X)[i], horizontal = T)
@@ -282,12 +282,17 @@ bayes.ssvs <- function(y, bigX, nburn, nsave, ssvs, fig) {
   return(df)
 }
 
-# model moderate food insecurity
-y <- as.matrix(data %>% select(fies.mod))
-bigX <- cbind(matrix(1, nrow = nrow(data), ncol = 1), as.matrix(data %>% select(vars)))
-colnames(bigX) <- c("(Intercept)", vars)
-nburn <- 10000         #number of burn ins
-nsave <- 90000         #number of saved draws
+data <- dat_rel %>% 
+  filter(year %in% c(1999:2009)) %>% 
+  setup_model() # %>% 
+  # select(-starts_with("iso3_"))
+
+y <- as.matrix(data %>% select(spr))
+
+bigX <- cbind(matrix(1, nrow = nrow(data), ncol = 1), as.matrix(data %>% select(-spr)))
+colnames(bigX) <- c("(Intercept)", colnames(data %>% select(-spr)))
+nburn <- 1000         #number of burn ins
+nsave <- 9000         #number of saved draws
 
 fig <- T
 mdf <- bayes.ssvs(y, bigX, nburn, nsave, ssvs, fig)
