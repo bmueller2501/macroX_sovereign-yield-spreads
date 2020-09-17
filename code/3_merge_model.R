@@ -38,7 +38,9 @@ rm(deu, deu_lagged)
 setup_model <- function(data){
   return(data %>% 
            filter(iso3 != "DEU") %>% 
-           select(spr, vars) %>%
+           fastDummies::dummy_cols(select_columns = c("iso3")) %>%
+           select(spr, vars, starts_with("iso3_")) %>% # iso3 for country dummy
+           select(-iso3_AUT) %>% # exclude one of the country dummies to avoid perfect collinearity
            select(-c(pspp,
                      reer,
                      gdp,
@@ -79,6 +81,7 @@ model_results_as_table <- function(model){
   cf$code <- row.names(cf)
   
   cf <- cf %>% 
+    filter(!grepl("iso3", code)) %>% 
     # join variables.bma to get naming and ordering right
     left_join(variables.bma, by = c("code")) %>% 
     # prepare for output
