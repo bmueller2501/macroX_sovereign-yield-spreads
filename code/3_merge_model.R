@@ -45,13 +45,16 @@ setup_model <- function(data){
                      tot_imf,
                      emu)))
 }
+run_model <- function(data){
+  moddat <- as.matrix(data)
+  
+  return(bms(moddat, burn = 1000, iter = 20000, g = "BRIC", mprior = "uniform", mcmc = "bd"))
+}
 
 moddat <- dat_rel %>% 
   filter(year %in% c(1999:2019)) %>% 
   setup_model()
 
-moddat <- as.matrix(moddat)
-
-mod.BMS <- bms(moddat, burn = 1000, iter = 20000, g = "BRIC", mprior = "uniform", mcmc = "bd")
+mod.BMS <- run_model(moddat)
 
 coef(mod.BMS, exact = TRUE) # exact=TRUE: This means that the marginal likelihoods are used for BMA
