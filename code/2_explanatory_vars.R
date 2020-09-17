@@ -33,6 +33,9 @@ if(joined_1999){
 # calculate trade balance relative to GDP
 full_data$tb <- full_data$tb/full_data$gdp
 
+# calculate openness relative to GDP
+full_data$tb <- full_data$openness/full_data$gdp
+
 # calculate total outstanding debt relative to EMU total outstanding debt
 full_data <- data.table(full_data)
 full_data[, debt_ea := debt/sum(debt), by = year]
