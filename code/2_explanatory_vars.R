@@ -38,6 +38,7 @@ full_data <- data.table(full_data)
 full_data[, debt_ea := debt/sum(debt), by = year]
 
 
+
 # PSPP
 # comment out line 1 and line 2 if you want it in absolute terms
 # line 1 only if you want it relative to GDP
@@ -46,4 +47,9 @@ full_data$pspp <- (full_data$pspp/1000)/full_data$gdp #(1) relative to GDP
 # full_data$pspp <- ifelse(full_data$year >= 2015,1,0) #(2) dummy
 
 exp <- data.table(full_data); rm(full_data)
+
+exp_lagged <- exp
+exp_lagged$year <- exp$year + 1
+exp_lagged <- exp_lagged[exp_lagged$year < max(exp_lagged$year)]
+
 vars <- names(exp)[!names(exp) %in% c("year", "iso3")]
