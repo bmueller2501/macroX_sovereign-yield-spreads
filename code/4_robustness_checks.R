@@ -13,3 +13,5 @@
 ## 2. actual robustness checks
 
 ### 2.1 unmodified variables (not relative to Germany)
+
+### 2.2 check if robust to model prior (e.g. change to "random" model prior)
