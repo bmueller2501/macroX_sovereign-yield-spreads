@@ -1,11 +1,12 @@
 # merge the data into one data.table
-dat <- merge(dep, exp, by = c("year", "iso3"))
-dat_lagged <- merge(dep, exp_lagged, by = c("year", "iso3"))
+dat <- merge(dep, exp, by = c("year", "iso3")); summary(dat)
+dat_lagged <- merge(dep, exp_lagged, by = c("year", "iso3")); summary(dat_lagged)
 
-# remove cds for now since we don't have full coverage
-dat <- dat %>% select(-cds)
-dat_lagged <- dat_lagged %>% select(-cds)
-vars <- vars[vars != "cds"] 
+
+# remove cds, pensions and pension_index for now since we don't have full coverage
+dat <- dat %>% select(-c(cds, pensions, pensions_index))
+dat_lagged <- dat_lagged %>% select(-c(cds, pensions, pensions_index))
+vars <- vars[!(vars %in% c("cds", "pensions", "pensions_index"))] 
 
 # clean data, remove NA
 dat <- na.omit(dat)
@@ -42,7 +43,6 @@ setup_model <- function(data){
                      reer,
                      gdp,
                      tot_oecd,
-                     tot_eiu,
                      tot_imf,
                      emu)))
 }

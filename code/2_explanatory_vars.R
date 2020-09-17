@@ -33,15 +33,18 @@ if(joined_1999){
 # calculate trade balance relative to GDP
 full_data$tb <- full_data$tb/full_data$gdp
 
+# calculate openness relative to GDP
+full_data$tb <- full_data$openness/full_data$gdp
+
 # calculate total outstanding debt relative to EMU total outstanding debt
 full_data <- data.table(full_data)
 full_data[, debt_ea := debt/sum(debt), by = year]
 
-# calculate terms of trade growth for tot_imf
+# calculate terms of trade growth for tot_oecd
 full_data <- full_data %>% 
   group_by(iso3) %>% 
   # 0 for now until we have data for 1998
-  mutate(tot_g = ifelse(year == min(full_data$year), 0, tot_imf - lag(tot_imf)))
+  mutate(tot_g = tot_oecd - lag(tot_oecd))
 
 # PSPP
 # comment out line 1 and line 2 if you want it in absolute terms
@@ -50,7 +53,7 @@ full_data <- full_data %>%
 full_data$pspp <- (full_data$pspp/1000)/full_data$gdp #(1) relative to GDP
 # full_data$pspp <- ifelse(full_data$year >= 2015,1,0) #(2) dummy
 
-exp <- data.table(full_data); rm(full_data)
+exp <- data.table(subset(full_data, year >= 1999)); rm(full_data)
 
 exp_lagged <- exp
 exp_lagged$year <- exp$year + 1
