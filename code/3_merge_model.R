@@ -50,7 +50,7 @@ setup_model <- function(data){
 run_model <- function(data){
   moddat <- as.matrix(data)
   
-  return(bms(moddat, burn = 5000, iter = 30000, g = "BRIC", mprior = "uniform", mcmc = "bd"))
+  return(bms(moddat, burn = 5000, iter = 30000, g = "BRIC", mprior = "uniform", mcmc = "rev.jump"))
 }
 variables.bma <- data.frame(
   No = 1:14,
