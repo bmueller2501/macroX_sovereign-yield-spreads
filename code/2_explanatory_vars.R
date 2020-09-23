@@ -1,47 +1,50 @@
-# load data on explanatory variables
+
+##-------------------------------------------------------------------------------------------------
+## load data on explanatory variables
 
 vars <- getSheetNames("./input/full_data.xlsx")
 
-full_data_list <- list()
+dat_list <- list()
 for (i0 in 1:length(vars)){
-  data <- openxlsx::read.xlsx("./input/full_data.xlsx", 
+  tmp <- openxlsx::read.xlsx("./input/full_data.xlsx", 
                                        sheet = i0, colNames = TRUE,
                                        na.strings = "NA")
   
   # store current sheet into full_data_list
-  full_data_list[[i0]] <- melt(data, id = "year", variable = "iso3")
+  dat_list[[i0]] <- melt(tmp, id = "year", variable = "iso3")
   # adjust file types
-  full_data_list[[i0]]$year <- as.integer(full_data_list[[i0]]$year)
-  full_data_list[[i0]]$iso3 <- as.character(full_data_list[[i0]]$iso3)
-  full_data_list[[i0]][[paste0(vars[i0])]] <- as.numeric(full_data_list[[i0]]$value)
-  full_data_list[[i0]] <- full_data_list[[i0]] %>% select(-value)
+  dat_list[[i0]]$year <- as.integer(dat_list[[i0]]$year)
+  dat_list[[i0]]$iso3 <- as.character(dat_list[[i0]]$iso3)
+  dat_list[[i0]][[paste0(vars[i0])]] <- as.numeric(dat_list[[i0]]$value)
+  dat_list[[i0]] <- dat_list[[i0]] %>% select(-value)
 }
-rm(data, i0)
+rm(tmp, i0)
 
-full_data <- Reduce(merge, full_data_list); rm(full_data_list)
-full_data$iso3 <- countrycode(full_data$iso3, "country.name", "iso3c")
+dat <- Reduce(merge, dat_list); rm(dat_list)
+dat$iso3 <- countrycode(dat$iso3, "country.name", "iso3c")
 
 # filter for countries that joined the EMU in 1999 in case setting is active
-if(joined_1999){
-  full_data <- full_data %>% filter(iso3 %in% j99)
+if(j99){
+  dat <- dat %>% filter(iso3 %in% cj99)
 }
 
-#####################
-# var corrections
-#####################
+dat <- data.table(dat)
+
+##-------------------------------------------------------------------------------------------------
+## some variable corrections
 
 # calculate trade balance relative to GDP
-full_data$tb <- full_data$tb/full_data$gdp
+dat$tb <- dat$tb/dat$gdp
 
 # calculate openness relative to GDP
-full_data$openness <- full_data$openness/full_data$gdp
+dat$openness <- dat$openness/dat$gdp
 
 # calculate total outstanding debt relative to EMU total outstanding debt
-full_data <- data.table(full_data)
-full_data[, debt_ea := debt/sum(debt), by = year]
+dat <- data.table(dat)
+dat[, debt_ea := debt/sum(debt), by = year]
 
 # calculate terms of trade growth for tot_oecd
-full_data <- full_data %>% 
+dat <- dat %>% 
   group_by(iso3) %>% 
   # 0 for now until we have data for 1998
   mutate(tot_g = tot_oecd - lag(tot_oecd))
@@ -50,13 +53,20 @@ full_data <- full_data %>%
 # comment out line 1 and line 2 if you want it in absolute terms
 # line 1 only if you want it relative to GDP
 # line 2 only if you want it as dummy variable
-full_data$pspp <- (full_data$pspp/1000)/full_data$gdp #(1) relative to GDP
-# full_data$pspp <- ifelse(full_data$year >= 2015,1,0) #(2) dummy
+dat$pspp <- (dat$pspp/1000)/dat$gdp #(1) relative to GDP
+# dat$pspp <- ifelse(dat$year >= 2015,1,0) #(2) dummy
 
-exp <- data.table(subset(full_data, year >= 1999)); rm(full_data)
 
-exp_lagged <- exp
-exp_lagged$year <- exp$year + 1
-exp_lagged <- exp_lagged[exp_lagged$year < max(exp_lagged$year)]
+##-------------------------------------------------------------------------------------------------
+## create data sets of explanatory variables: 1) yearly average, 2) end-of-year 3) lagged
 
-vars <- names(exp)[!names(exp) %in% c("year", "iso3")]
+# exp <- subset(dat, year >= 1999) %>%
+#   select(year, iso3, )
+# 
+# exp_lag <- exp
+# exp_lag$year <- exp$year + 1
+# exp_lag <- subset(exp_lag, year < max(exp_lag$year))
+# 
+# vars <- names(exp)[!names(exp) %in% c("year", "iso3")]
+# 
+# rm(dat)

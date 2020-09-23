@@ -9,13 +9,11 @@ c <- colnames(dat[,2:ncol(dat)])
 
 # get year from date
 dat <- dat %>% 
-  mutate(year = as.integer(substr(as.character(dat$date), 1, 4))) #%>% 
-  #select(-date)
+  mutate(year = as.integer(substr(as.character(dat$date), 1, 4)))
 
 # adjust table to get: year, iso3, spread
 dat <- gather(data = dat, key = "iso3", value = "spr", c) %>%
-  mutate(iso3 = countrycode(iso3, "iso2c", "iso3c")) %>%
-  as.data.table
+  mutate(iso3 = countrycode(iso3, "iso2c", "iso3c"))
 
 # fix code for Ireland
 dat$iso3[dat$iso3 == "IRN"] <- "IRL"
@@ -32,12 +30,13 @@ dep_ey <- dat %>%
   ungroup()
 
 # get the average spread for each country for each year
+dat <- data.table(dat)
 dep <- dat[, .(spr = mean(spr, na.rm = T)), by = .(year, iso3)]
 
 # filter for countries that joined the EMU in 1999 in case setting is active
 if(j99){
-  dep <- dep %>% filter(iso3 %in% c_j99)
-  dep_ey <- dep_ey %>% filter(iso3 %in% c_j99)
+  dep <- dep %>% filter(iso3 %in% cj99)
+  dep_ey <- dep_ey %>% filter(iso3 %in% cj99)
 }
 
 rm(dat)
@@ -68,6 +67,8 @@ ggplot(plotdat) +
   labs(x='year', y="difference between yearly average and end-of-year spread", 
        color = "countries (iso3)")
 ggsave("output/time.spr_diff.png", width=8, height=5)
+
+rm(plotdat)
 
 
 
