@@ -2,7 +2,7 @@
 ##-------------------------------------------------------------------------------------------------
 ## replication of model results in paper, talbe 2
 
-# baseline (1999-2009)
+# baseline (1999-2009) "in times of crisis"
 mod.BMS.baseline <- dat_base %>% 
   filter(year %in% c(1999:2009)) %>% 
   setup_model() %>% run_model()
