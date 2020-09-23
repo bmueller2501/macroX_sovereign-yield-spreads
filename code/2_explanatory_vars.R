@@ -56,17 +56,54 @@ dat <- dat %>%
 dat$pspp <- (dat$pspp/1000)/dat$gdp #(1) relative to GDP
 # dat$pspp <- ifelse(dat$year >= 2015,1,0) #(2) dummy
 
+##-------------------------------------------------------------------------------------------------
+## calulate values relative to germany
+
+dat_notrel <- dat
+
+deu <- subset(dat, iso3 == "DEU")
+vars <- names(dat)[!names(dat) %in% c("year", "iso3",
+                                      "i_us", "i_us_ey",
+                                      "baa", "baa_ey",
+                                      "bbb", "bbb_ey",
+                                      "emu")]
+
+for(v in vars) {
+  for(y in unique(dat$year)) {
+    dat[[paste0(v)]][dat$year == y] <- 
+      dat[[paste0(v)]][dat$year == y]-deu[[paste0(v)]][deu$year == y]
+  }
+}
+
+rm(deu)
+
 
 ##-------------------------------------------------------------------------------------------------
 ## create data sets of explanatory variables: 1) yearly average, 2) end-of-year 3) lagged
+## add here another one for fancy/new variables
 
-# exp <- subset(dat, year >= 1999) %>%
-#   select(year, iso3, )
-# 
-# exp_lag <- exp
-# exp_lag$year <- exp$year + 1
-# exp_lag <- subset(exp_lag, year < max(exp_lag$year))
-# 
-# vars <- names(exp)[!names(exp) %in% c("year", "iso3")]
-# 
-# rm(dat)
+exp <- subset(dat, year >= 1999) %>%
+  select(year, iso3, 
+         bb, debt_ratio, i_avg, g, inf, inf_var, gcf, tb, 
+         openness, tot_g, debt, debt_ea, i_us, bbb) #check debt_ea base div
+
+exp_ey <- subset(dat, year >= 1999) %>%
+  select(year, iso3, 
+         bb, debt_ratio, i_avg, g, inf, inf_var, gcf, tb, 
+         openness, tot_g, debt, debt_ea, i_us_ey, bbb_ey) %>%
+  rename(i_us = "i_us_ey", bbb = "bbb_ey") # rename that it is same to exp
+
+exp_lag <- exp
+exp_lag$year <- exp$year + 1
+exp_lag <- subset(exp_lag, year < max(exp_lag$year))
+
+vars <- names(exp)[!names(exp) %in% c("year", "iso3")] #same as exp_ey
+
+# not relative to germany
+exp_ey_notrel <- subset(dat_notrel, year >= 1999) %>%
+  select(year, iso3, 
+         bb, debt_ratio, i_avg, g, inf, inf_var, gcf, tb, 
+         openness, tot_g, debt, debt_ea, i_us_ey, bbb_ey) %>%
+  rename(i_us = "i_us_ey", bbb = "bbb_ey") # rename that it is same to exp
+
+rm(dat)

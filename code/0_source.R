@@ -21,9 +21,11 @@ cj99 <- c("AUT", "BEL", "DEU", "ESP", "FIN", "FRA", "ITA", "NLD", "PRT", "IRL", 
 # setwd("C:/Users/Viktor/Dropbox/GitHub/macroX_sovereign-yield-spreads/")
 # setwd("C:/Users/bmuel/Desktop/GitHub/macroX_sovereign-yield-spreads")
 
-# source(paste("./code/1_dependent_var.R", sep =""))
-# source(paste("./code/2_explanatory_vars.R", sep =""))
-# source(paste("./code/3_merge_model.R", sep =""))
+source(paste("./code/1_dependent_var.R", sep =""))
+source(paste("./code/2_explanatory_vars.R", sep =""))
+source(paste("./code/3_merge_model.R", sep =""))
+
+# run the following scripts step-by-step
 # source(paste("./code/4_robustness_checks.R", sep =""))
 # source(paste("./code/5_analysis.R", sep =""))
 # source(paste("./code/6_ssvs.R", sep =""))

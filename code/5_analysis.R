@@ -1,4 +1,15 @@
-# analysing our main model
+
+##-------------------------------------------------------------------------------------------------
+## analysing our main model, whole period: 1999-2019
+
+mod.BMS <- dat_ey %>% 
+  filter(year %in% c(1999:2019)) %>% 
+  setup_model() %>% run_model()
+
+model_results_as_table(mod.BMS)
+
+# coef(mod.BMS, exact = TRUE) # exact=TRUE: This means that the marginal likelihoods are used for BMA
+
 
 # looks good
 plotConv(mod.BMS)

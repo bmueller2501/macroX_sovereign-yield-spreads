@@ -1,3 +1,7 @@
+
+##-------------------------------------------------------------------------------------------------
+## try a ssvs model
+
 ssvs <- 1
 
 bayes.ssvs <- function(y, bigX, nburn, nsave, ssvs, fig) {
@@ -282,10 +286,9 @@ bayes.ssvs <- function(y, bigX, nburn, nsave, ssvs, fig) {
   return(df)
 }
 
-data <- dat_rel %>% 
+data <- dat_ey %>% 
   filter(year %in% c(1999:2009)) %>% 
-  setup_model() # %>% 
-  # select(-starts_with("iso3_"))
+  setup_model()
 
 y <- as.matrix(data %>% select(spr))
 
@@ -295,4 +298,4 @@ nburn <- 1000         #number of burn ins
 nsave <- 9000         #number of saved draws
 
 fig <- T
-mdf <- bayes.ssvs(y, bigX, nburn, nsave, ssvs, fig)
+mod.SVSS <- bayes.ssvs(y, bigX, nburn, nsave, ssvs, fig)

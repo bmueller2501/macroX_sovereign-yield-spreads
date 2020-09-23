@@ -68,6 +68,8 @@ ggplot(plotdat) +
        color = "countries (iso3)")
 ggsave("output/time.spr_diff.png", width=8, height=5)
 
+
+dep_ey <- dep_ey %>% rename(spr = "spr_ey")
 rm(plotdat)
 
 
