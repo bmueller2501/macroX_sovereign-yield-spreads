@@ -15,8 +15,8 @@ pacman::p_load(BMS)
 pacman::p_load(fastDummies)
 
 # set settings for this run
-joined_1999 <- TRUE # defines whether to only consider the subset of countries that joined the EMU 1999
-j99 <- c("AUT", "BEL", "DEU", "ESP", "FIN", "FRA", "ITA", "NLD", "PRT", "IRL", "LUX")
+j99 <- TRUE # defines whether to only consider the subset of countries that joined the EMU 1999
+c_j99 <- c("AUT", "BEL", "DEU", "ESP", "FIN", "FRA", "ITA", "NLD", "PRT", "IRL", "LUX")
 
 # setwd("C:/Users/Viktor/Dropbox/GitHub/macroX_sovereign-yield-spreads/")
 # setwd("C:/Users/bmuel/Desktop/GitHub/macroX_sovereign-yield-spreads")
