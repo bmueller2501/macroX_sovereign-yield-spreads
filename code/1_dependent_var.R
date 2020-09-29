@@ -45,31 +45,38 @@ rm(dat)
 ##-------------------------------------------------------------------------------------------------
 ## plot yearly average spreads and difference between average and end-of-year
 
+library(cowplot)
+library(gridGraphics)
+options(scipen=100)
+
 plotdat <- merge(dep, dep_ey) %>%
   filter(year <= 2019, iso3 != "LUX") %>% #only 1999-2019 and without LUX
   mutate(diff = spr-spr_ey)
+dep_ey <- dep_ey %>% rename(spr = "spr_ey")
 
 y <- seq(1999, 2019, by = 2)
 
 # yearly average spreads
-ggplot(plotdat) +
-  geom_line(aes(x=year, y=spr, color=iso3)) + 
+time.spr_avg <- ggplot(plotdat) +
+  geom_line(aes(x=year, y=spr, color=iso3), size = 0.6) + 
   scale_x_continuous(labels = as.character(y), breaks = y) +
-  labs(x='year', y="yearly average spread", 
-       color = "countries (iso3)")
-ggsave("output/time.spr_avg.png", width=8, height=5)
+  labs(x='Year', y="Basis Points", 
+       color = "Countries (ISO3)"); time.spr_avg
+#ggsave("output/time.spr_avg.png", width=8, height=5)
 
 
 # difference between average spread of the year and spread at the end of the year
-ggplot(plotdat) +
-  geom_line(aes(x=year, y=diff, color=iso3)) + 
+time.spr_diff <- ggplot(plotdat) +
+  geom_line(aes(x=year, y=diff, color=iso3), size = 0.6) + 
   scale_x_continuous(labels = as.character(y), breaks = y) +
-  labs(x='year', y="difference between yearly average and end-of-year spread", 
-       color = "countries (iso3)")
-ggsave("output/time.spr_diff.png", width=8, height=5)
+  labs(x='Year', y="Basis Points", 
+       color = "Countries (ISO3)")
+#ggsave("output/time.spr_diff.png", width=8, height=5)
+
+plot_grid(time.spr_avg, time.spr_diff, align='h',labels='AUTO')
+ggsave("output/time.spr.png", width=15, height=5)
 
 
-dep_ey <- dep_ey %>% rename(spr = "spr_ey")
 rm(plotdat)
 
 
