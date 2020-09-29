@@ -43,11 +43,12 @@ dat$openness <- dat$openness/dat$gdp
 dat <- data.table(dat)
 dat[, debt_ea := debt/sum(debt), by = year]
 
-# calculate terms of trade growth for tot_oecd
-dat <- dat %>% 
-  group_by(iso3) %>% 
-  # 0 for now until we have data for 1998
-  mutate(tot_g = tot_oecd - lag(tot_oecd))
+# # calculate terms of trade growth for tot_oecd
+# dat <- dat %>% 
+#   group_by(iso3) %>% 
+#   # 0 for now until we have data for 1998
+#   mutate(tot_g = tot_oecd - lag(tot_oecd))
+# use terms of trade instead of tot growth
 
 # PSPP
 # comment out line 1 and line 2 if you want it in absolute terms
@@ -85,25 +86,39 @@ rm(deu)
 exp <- subset(dat, year >= 1999) %>%
   select(year, iso3, 
          bb, debt_ratio, i_avg, g, inf, inf_var, gcf, tb, 
-         openness, tot_g, debt, debt_ea, i_us, bbb) #check debt_ea base div
+         openness, tot_oecd, debt, debt_ea, i_us, bbb) #check debt_ea base div
 
 exp_ey <- subset(dat, year >= 1999) %>%
   select(year, iso3, 
          bb, debt_ratio, i_avg, g, inf, inf_var, gcf, tb, 
-         openness, tot_g, debt, debt_ea, i_us_ey, bbb_ey) %>%
+         openness, tot_oecd, debt, debt_ea, i_us_ey, bbb_ey) %>%
   rename(i_us = "i_us_ey", bbb = "bbb_ey") # rename that it is same to exp
 
 exp_lag <- exp
 exp_lag$year <- exp$year + 1
 exp_lag <- subset(exp_lag, year < max(exp_lag$year))
 
-vars <- names(exp)[!names(exp) %in% c("year", "iso3")] #same as exp_ey
-
 # not relative to germany
 exp_ey_notrel <- subset(dat_notrel, year >= 1999) %>%
   select(year, iso3, 
          bb, debt_ratio, i_avg, g, inf, inf_var, gcf, tb, 
-         openness, tot_g, debt, debt_ea, i_us_ey, bbb_ey) %>%
-  rename(i_us = "i_us_ey", bbb = "bbb_ey") # rename that it is same to exp
+         openness, tot_oecd, debt, debt_ea, i_us_ey, bbb_ey) %>%
+  rename(i_us = "i_us_ey", bbb = "bbb_ey") # rename that it is same to exp_avg
+
+# extended set of varaibles
+exp_ext <- subset(dat, year >= 1999) %>%
+  select(year, iso3, 
+         bb, debt_ratio, i_avg, g, inf, inf_var, gcf, tb, 
+         openness, tot_oecd, debt, debt_ea, i_us, bbb,
+         pensions, # exclude cds and pensions, too many NAs?
+         reer, pspp) 
+
+exp_ey_ext <- subset(dat, year >= 1999) %>%
+  select(year, iso3, 
+         bb, debt_ratio, i_avg, g, inf, inf_var, gcf, tb, 
+         openness, tot_oecd, debt, debt_ea, i_us_ey, bbb_ey,
+         pensions, # exclude cds and pensions, too many NAs?
+         reer, pspp) %>%
+  rename(i_us = "i_us_ey", bbb = "bbb_ey") # rename that it is same to exp_avg
 
 rm(dat)
