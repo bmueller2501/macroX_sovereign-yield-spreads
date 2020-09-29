@@ -3,25 +3,25 @@
 ## replication of model results in paper, talbe 2
 
 # baseline (1999-2009) "in times of crisis"
-mod.BMS.baseline <- dat_base %>% 
+mod.BMS.baseline <- dat_ey %>% 
   filter(year %in% c(1999:2009)) %>% 
   setup_model() %>% run_model()
 
-model_results_as_table(mod.BMS.baseline)
+model_results_as_table(mod.BMS.baseline, F)
 
 # lagged (1999-2009)
 mod.BMS.lagged <- dat_lag %>% 
   filter(year %in% c(1999:2009)) %>% 
   setup_model() %>% run_model()
 
-model_results_as_table(mod.BMS.lagged)
+model_results_as_table(mod.BMS.lagged, F)
 
 # pre-crisis (1999-2007)
 mod.BMS.precrisis <- dat_ey %>% 
   filter(year %in% c(1999:2007)) %>% 
   setup_model() %>% run_model()
 
-model_results_as_table(mod.BMS.precrisis)
+model_results_as_table(mod.BMS.precrisis, F)
 
 
 ##-------------------------------------------------------------------------------------------------
@@ -32,7 +32,7 @@ mod.BMS.unmodified <- dat_ey_notrel %>%
   filter(year %in% c(1999:2009)) %>%
   setup_model() %>% run_model()
 
-model_results_as_table(mod.BMS.unmodified)
+model_results_as_table(mod.BMS.unmodified, F)
 
 # check if robust to model prior (e.g. change to "random" model prior)
 moddat <- dat_ey %>%
@@ -40,5 +40,11 @@ moddat <- dat_ey %>%
   setup_model()
 
 mod.BMS.g.random <- bms(as.matrix(moddat), burn = 1000, iter = 10000, g = "BRIC", mprior = "random", mcmc = "bd")
-model_results_as_table(mod.BMS.g.random)
+model_results_as_table(mod.BMS.g.random, F)
+
+
+
+
+
+
 
