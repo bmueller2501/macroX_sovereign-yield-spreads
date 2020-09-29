@@ -13,6 +13,7 @@ pacman::p_load(reshape2)
 pacman::p_load(countrycode)
 pacman::p_load(BMS)
 pacman::p_load(fastDummies)
+pacman::p_load(xtable)
 
 # set settings for this run
 j99 <- TRUE # defines whether to only consider the subset of countries that joined the EMU 1999
