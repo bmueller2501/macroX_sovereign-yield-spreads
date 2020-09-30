@@ -1,4 +1,4 @@
-
+# This script runs all the other scripts
 rm(list=ls(all=TRUE))
 
 # libraries
@@ -17,7 +17,6 @@ p_load(reshape2)
 p_load(fastDummies)
 p_load(xtable)
 
-
 # only subset of countries that joined the EMU 1999
 j99 <- c("AUT", "BEL", "DEU", "ESP", "FIN", "FRA", "ITA", "NLD", "PRT", "IRL", "LUX")
 
@@ -25,8 +24,5 @@ j99 <- c("AUT", "BEL", "DEU", "ESP", "FIN", "FRA", "ITA", "NLD", "PRT", "IRL", "
 source(paste("./code/1_dependent_var.R", sep =""))
 source(paste("./code/2_explanatory_vars.R", sep =""))
 source(paste("./code/3_merge_model.R", sep =""))
-
-# run the following scripts step-by-step
-# source(paste("./code/4_robustness_checks.R", sep =""))
-# source(paste("./code/5_analysis.R", sep =""))
-
+source(paste("./code/4_analysis.R", sep =""))
+source(paste("./code/5_robustness_checks.R", sep =""))

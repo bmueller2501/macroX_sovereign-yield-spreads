@@ -1,4 +1,3 @@
-
 ##-------------------------------------------------------------------------------------------------
 ## replication of model results from Maltritz, table 2
 
@@ -22,7 +21,6 @@ moddat.ey %>%
   setup_model() %>% 
   run_model() %>%
   model_results_as_table()
-
 
 ##-------------------------------------------------------------------------------------------------
 ## actual robustness checks, table a3 in appendix

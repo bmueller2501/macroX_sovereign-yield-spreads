@@ -1,4 +1,3 @@
-
 ##-------------------------------------------------------------------------------------------------
 ## load data for the dependent variable (spreads) and create average year and end-of-year
 ## data set for spreads
