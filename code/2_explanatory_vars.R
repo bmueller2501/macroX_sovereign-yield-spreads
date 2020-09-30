@@ -23,15 +23,12 @@ rm(tmp, i0)
 dat <- Reduce(merge, dat_list); rm(dat_list)
 dat$iso3 <- countrycode(dat$iso3, "country.name", "iso3c")
 
-# filter for countries that joined the EMU in 1999 in case setting is active
-if(j99){
-  dat <- dat %>% filter(iso3 %in% cj99)
-}
+# filter for countries that joined the EMU in 1999
+dat <- dat %>% filter(iso3 %in% j99) %>% as.data.table
 
-dat <- data.table(dat)
 
 ##-------------------------------------------------------------------------------------------------
-## some variable corrections
+## do some variable corrections
 
 # calculate trade balance relative to GDP
 dat$tb <- dat$tb/dat$gdp
@@ -57,8 +54,9 @@ dat[, debt_ea := debt/sum(debt), by = year]
 dat$pspp <- (dat$pspp/1000)/dat$gdp #(1) relative to GDP
 # dat$pspp <- ifelse(dat$year >= 2015,1,0) #(2) dummy
 
+
 ##-------------------------------------------------------------------------------------------------
-## calulate values relative to germany
+## calculate values relative to germany
 
 dat_notrel <- dat
 
@@ -80,45 +78,52 @@ rm(deu)
 
 
 ##-------------------------------------------------------------------------------------------------
-## create data sets of explanatory variables: 1) yearly average, 2) end-of-year 3) lagged
-## add here another one for fancy/new variables
+## create data sets of explanatory variables: end-of-year, yearly average lagged
 
-exp <- subset(dat, year >= 1999) %>%
-  select(year, iso3, 
-         bb, debt_ratio, i_avg, g, inf, inf_var, gcf, tb, 
-         openness, tot_oecd, debt, debt_ea, i_us, bbb) #check debt_ea base div
-
+# Maltritz variables, end-of-year
 exp_ey <- subset(dat, year >= 1999) %>%
   select(year, iso3, 
          bb, debt_ratio, i_avg, g, inf, inf_var, gcf, tb, 
          openness, tot_oecd, debt, debt_ea, i_us_ey, bbb_ey) %>%
-  rename(i_us = "i_us_ey", bbb = "bbb_ey") # rename that it is same to exp
+  rename(i_us = "i_us_ey", bbb = "bbb_ey") # rename that it is same to exp_lag
 
-exp_lag <- exp
-exp_lag$year <- exp$year + 1
-exp_lag <- subset(exp_lag, year < max(exp_lag$year))
+# Maltritz variables, average lagged
+exp_lag <- subset(dat, year >= 1999) %>%
+  select(year, iso3, 
+         bb, debt_ratio, i_avg, g, inf, inf_var, gcf, tb, 
+         openness, tot_oecd, debt, debt_ea, i_us, bbb) %>%
+  mutate(year = year + 1) %>%
+  filter(year < max(year))
 
-# not relative to germany
+
+
+# extended variables, end-of-year
+exp_ext_ey <- subset(dat, year >= 1999) %>%
+  select(year, iso3, 
+         bb, debt_ratio, i_avg, g, inf, inf_var, gcf, tb, 
+         openness, tot_oecd, debt, debt_ea, i_us_ey, bbb_ey,
+         pensions, reer, pspp) %>% # exclude cds
+  rename(i_us = "i_us_ey", bbb = "bbb_ey")
+
+# extended variables, average lagged
+exp_ext_lag <- subset(dat, year >= 1999) %>%
+  select(year, iso3, 
+         bb, debt_ratio, i_avg, g, inf, inf_var, gcf, tb, 
+         openness, tot_oecd, debt, debt_ea, i_us_ey, bbb_ey,
+         pensions, reer, pspp) %>%
+  mutate(year = year + 1) %>%
+  filter(year < max(year))
+
+
+
+# not relative to germany, will not present that, robustness check in Maltritz
 exp_ey_notrel <- subset(dat_notrel, year >= 1999) %>%
   select(year, iso3, 
          bb, debt_ratio, i_avg, g, inf, inf_var, gcf, tb, 
          openness, tot_oecd, debt, debt_ea, i_us_ey, bbb_ey) %>%
-  rename(i_us = "i_us_ey", bbb = "bbb_ey") # rename that it is same to exp_avg
+  rename(i_us = "i_us_ey", bbb = "bbb_ey")
 
-# extended set of varaibles
-exp_ext <- subset(dat, year >= 1999) %>%
-  select(year, iso3, 
-         bb, debt_ratio, i_avg, g, inf, inf_var, gcf, tb, 
-         openness, tot_oecd, debt, debt_ea, i_us, bbb,
-         pensions, # exclude cds and pensions, too many NAs?
-         reer, pspp) 
 
-exp_ey_ext <- subset(dat, year >= 1999) %>%
-  select(year, iso3, 
-         bb, debt_ratio, i_avg, g, inf, inf_var, gcf, tb, 
-         openness, tot_oecd, debt, debt_ea, i_us_ey, bbb_ey,
-         pensions, # exclude cds and pensions, too many NAs?
-         reer, pspp) %>%
-  rename(i_us = "i_us_ey", bbb = "bbb_ey") # rename that it is same to exp_avg
+rm(dat, dat_notrel)
 
-rm(dat)
+

@@ -2,14 +2,16 @@
 ##-------------------------------------------------------------------------------------------------
 ## merge the dep and exp into model data sets and omit NAs
 
-dat <- merge(dep, exp, by = c("year", "iso3")) %>% na.omit
-dat_ey <- merge(dep_ey, exp_ey, by = c("year", "iso3")) %>% na.omit
-dat_lag <- merge(dep, exp_lag, by = c("year", "iso3")) %>% na.omit
+moddat.ey <- merge(dep_ey, exp_ey, by = c("year", "iso3")) %>% na.omit
+moddat.lag <- merge(dep, exp_lag, by = c("year", "iso3")) %>% na.omit
 
-dat_ey_notrel <- merge(dep_ey, exp_ey_notrel, by = c("year", "iso3")) %>% na.omit
+moddat_ext.ey <- merge(dep_ey, exp_ext_ey, by = c("year", "iso3")) %>% na.omit
+moddat_ext.lag <- merge(dep, exp_ext_lag, by = c("year", "iso3")) %>% na.omit
 
-dat_ext <- merge(dep, exp_ext, by = c("year", "iso3")) %>% na.omit
-dat_ey_ext <- merge(dep_ey, exp_ey_ext, by = c("year", "iso3")) %>% na.omit
+# moddat_notrel.ey <- merge(dep_ey, exp_ey_notrel, by = c("year", "iso3")) %>% na.omit
+
+
+rm(dep, dep_ey, exp_ey, exp_lag, exp_ext_ey, exp_ext_lag, exp_ey_notrel)
 
 
 ##-------------------------------------------------------------------------------------------------
@@ -30,8 +32,9 @@ run_model <- function(data){
 
 
 ##-------------------------------------------------------------------------------------------------
-## model results as table, same as table 2 in paper
+## model results as table, similar to table 2 in paper
 
+# Maltritz variables
 variables.bma <- data.frame(
   No = 1:14,
   code = c("bb", "debt_ratio", "i_avg", "g", "inf", "inf_var", "gcf", "tb", "openness",
@@ -56,7 +59,9 @@ variables.bma <- data.frame(
     "Market sentiment: BBB rated US corporate bond spread to US treasuries")
 )
 
-variables.bma.ext <- data.frame(
+
+# extended variables
+variables_ext.bma <- data.frame(
   No = 1:17,
   code = c("bb", "debt_ratio", "i_avg", "g", "inf", "inf_var", "gcf", "tb", "openness",
            "tot_oecd", "debt", "debt_ea", "i_us", "bbb", "pensions", "reer","pspp"),
@@ -78,7 +83,7 @@ variables.bma.ext <- data.frame(
     # Global conditions
     "Global capital costs: US interest rate",
     "Market sentiment: BBB rated US corporate bond spread to US treasuries",
-    # Extended variables
+    # Variable extension
     "Pension expenditure",
     "Real effective exchange rate",
     "Public Sector Purchase Programme"
@@ -86,12 +91,12 @@ variables.bma.ext <- data.frame(
 )
 
 
-model_results_as_table <- function(model, ext){
+model_results_as_table <- function(model){
   cf <- as.data.frame(coef(model, exact = TRUE))
   cf$code <- row.names(cf)
   cf <- cf %>% filter(!grepl("iso3", code))
   
-  if(ext == T) {cf <- cf %>% left_join(variables.bma.ext, by = c("code"))} else{
+  if(nrow(cf) > 14) {cf <- cf %>% left_join(variables_ext.bma, by = c("code"))} else{
     cf <- cf %>% left_join(variables.bma, by = c("code"))
   }
   
@@ -106,6 +111,4 @@ model_results_as_table <- function(model, ext){
   
   return(cf)
 }
-
-
 
